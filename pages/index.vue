@@ -1,9 +1,7 @@
 <template>
-  <v-app>
-    <v-main>
       <v-container>
-        <v-row>
-          <v-col cols="12">
+        <v-row justify="center">
+          <v-col cols="12" md="6">
             <v-card>
               <v-card-title>Inventory Management System</v-card-title>
               <v-card-text>
@@ -13,8 +11,6 @@
           </v-col>
         </v-row>
       </v-container>
-    </v-main>
-  </v-app>
 </template>
 
 <script setup>
