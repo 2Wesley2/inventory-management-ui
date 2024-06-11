@@ -19,4 +19,7 @@ export default defineNuxtConfig({
       'process.env.DEBUG': false,
     },
   },
+  plugins: [
+    '~/plugins/axios.js',
+  ],
 })
